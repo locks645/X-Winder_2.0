@@ -1,0 +1,17 @@
+# File needed to install the packages for the conda virtual environment
+# Add packages/libraries as needed
+name: X-Winder_2.0
+channels: # Don't worry about this
+  - defaults
+  - conda-forge
+dependencies:
+  - python     = 3.9.11
+  - numpy      = 1.26.4
+  - pandas     = 2.2.2
+  - matplotlib = 3.8.4
+  - pip        = 24.0
+  - pip: 
+    - PyQt5       == 5.15.9
+    - pyqt5-tools == 5.15.9.3.3
+    - Phidget22   == 1.19.20240513
+    - jupyter     == 1.1.0

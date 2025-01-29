@@ -247,7 +247,7 @@ class winder:
 
     def part_size(radius, length):
         self.radius = radius
-        self. length = length
+        self.length = length
 
 
     def hoop(self):
